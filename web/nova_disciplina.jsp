@@ -1,9 +1,3 @@
-<%-- 
-    Document   : nova_disciplina
-    Created on : 16/11/2021, 13:25:32
-    Author     : VagnerDev
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
