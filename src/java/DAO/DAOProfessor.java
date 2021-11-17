@@ -100,7 +100,7 @@ public class DAOProfessor {
     //metodo excluir professor
     public void excluirProfessor(int valor){
         try {
-            String sql = "DELETE ROM tb_professor WHERE id_professor = " + valor;
+            String sql = "DELETE FROM tb_professor WHERE id_professor = " + valor;
             st = conn.createStatement();
             st.execute(sql);
             st.close();
