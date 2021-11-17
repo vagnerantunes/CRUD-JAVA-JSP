@@ -9,7 +9,12 @@
     <body>
         <div>
             <h2>CADASTRO DE PROFESSOR</h2>
-            <h3><a href="novo_professor.jsp"><input type="submit" value="INSERIR"></a></h3>
+            <h3><a href="novo_professor.jsp"><input type="submit" value="INSERIR"/></a></h3>
+        </div>
+        
+        <div>
+            <h2>CADASTRO DE DISCIPLINA</h2>
+            <h3><a href="nova_disciplina.jsp"><input type="submit" value="INSERIR"/></a></h3>
         </div>
     </body>
 </html>
