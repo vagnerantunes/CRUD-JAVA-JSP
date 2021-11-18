@@ -45,7 +45,7 @@ public class DAODisciplina {
             
             while(rs.next()){
                 Disciplina disciplina = new Disciplina();
-                disciplina.setId(rs.getInt("id_professor"));
+                disciplina.setId(rs.getInt("id_disciplina"));
                 disciplina.setNome(rs.getString("nome_disciplina"));
                 disciplina.setCargahoraria(rs.getInt("cargahoraria_disciplina"));
                 
