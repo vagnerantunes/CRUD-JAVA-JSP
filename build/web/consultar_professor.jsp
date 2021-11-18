@@ -36,6 +36,7 @@
                         out.print("<tr>");
                         out.print("<td>" + lista.get(i).getId() + "</td>");
                         out.print("<td>" + lista.get(i).getNome() + "</td>");
+                        out.print("<td>" + lista.get(i).getEmail() + "</td>");
                         out.print("<td>" + lista.get(i).getSenha() + "</td>");
                         
                         out.print("<td><a href='crud/alterar_professor.jsp?id="
