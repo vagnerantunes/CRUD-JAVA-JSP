@@ -18,6 +18,9 @@
             <label for="email">EMAIL</label><br>
             <input type="text" name="email" value="<%=request.getParameter("email")%>"/><br>
             
+            <label for="senha">SENHA</label><br>
+            <input type="text" name="senha" value="<%=request.getParameter("senha")%>"/><br>
+            
             <input type="submit" value="ATUALIZAR"/>
         </form>
     </body>

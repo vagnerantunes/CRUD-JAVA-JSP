@@ -41,13 +41,13 @@
                         
                         out.print("<td><a href='crud/alterar_professor.jsp?id="
                             + lista.get(i).getId()
-                            + "&nome" + lista.get(i).getNome()
+                            + "&nome=" + lista.get(i).getNome()
                             + "&email=" + lista.get(i).getEmail()
                             + "&senha=" + lista.get(i).getSenha()
                             + "'>CLIQUE</a></td>");
                         out.print("<td><a href='crud/excluir_professor.jsp?id="
                             + lista.get(i).getId()
-                            + "&nome" + lista.get(i).getNome()
+                            + "&nome=" + lista.get(i).getNome()
                             + "'>CLIQUE</a></td>");                        
                         out.print("</tr>");
                     }
@@ -63,7 +63,7 @@
                                 + lista.get(i).getId()
                                 + "&nome=" + lista.get(i).getNome()
                                 + "&email=" + lista.get(i).getEmail()
-                                + "&senha" + lista.get(i).getSenha()
+                                + "&senha=" + lista.get(i).getSenha()
                                 + "'>CLIQUE</a></td>");                        
                         out.print("<td><a href='crud/exluir_professor.jsp?id="
                                 + lista.get(i).getId()

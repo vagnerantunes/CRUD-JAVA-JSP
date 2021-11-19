@@ -12,6 +12,7 @@
             try {
                     Professor pro = new Professor();
                     DAOProfessor dpro = new DAOProfessor();
+                    
                     pro.setNome(request.getParameter("nome"));
                     pro.setEmail(request.getParameter("email"));
                     pro.setSenha(request.getParameter("senha"));

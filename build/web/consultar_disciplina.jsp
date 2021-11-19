@@ -39,12 +39,12 @@
 
                             out.print("<td><a href='crud/alterar_disciplina.jsp?id="
                                     + lista.get(i).getId()
-                                    + "&nome" + lista.get(i).getNome()
+                                    + "&nome=" + lista.get(i).getNome()
                                     + "&cargahoraria=" + lista.get(i).getCargahoraria()                                    
                                     + "'>CLIQUE</a></td>");
                             out.print("<td><a href='crud/excluir_disciplina.jsp?id="
                                     + lista.get(i).getId()
-                                    + "&nome" + lista.get(i).getNome()
+                                    + "&nome=" + lista.get(i).getNome()
                                     + "'>CLIQUE</a></td>");
                             out.print("</tr>");
                         }

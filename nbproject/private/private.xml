@@ -4,8 +4,17 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/Vagner%20Antunes/Documents/NetBeansProjects/CRUD-JAVA-JSP/web/consultar_professor.jsp</file>
+            <file>file:/C:/Users/Vagner%20Antunes/Documents/NetBeansProjects/CRUD-JAVA-JSP/web/consultar_disciplina.jsp</file>
             <file>file:/C:/Users/Vagner%20Antunes/Documents/NetBeansProjects/CRUD-JAVA-JSP/src/java/DAO/DAODisciplina.java</file>
+            <file>file:/C:/Users/Vagner%20Antunes/Documents/NetBeansProjects/CRUD-JAVA-JSP/web/crud/alterar_professor.jsp</file>
+            <file>file:/C:/Users/Vagner%20Antunes/Documents/NetBeansProjects/CRUD-JAVA-JSP/web/nova_disciplina.jsp</file>
             <file>file:/C:/Users/Vagner%20Antunes/Documents/NetBeansProjects/CRUD-JAVA-JSP/web/index.jsp</file>
+            <file>file:/C:/Users/Vagner%20Antunes/Documents/NetBeansProjects/CRUD-JAVA-JSP/web/executar/executar_alterar_disciplina.jsp</file>
+            <file>file:/C:/Users/Vagner%20Antunes/Documents/NetBeansProjects/CRUD-JAVA-JSP/web/crud/inserir_disciplina.jsp</file>
+            <file>file:/C:/Users/Vagner%20Antunes/Documents/NetBeansProjects/CRUD-JAVA-JSP/web/crud/inserir_professor.jsp</file>
+            <file>file:/C:/Users/Vagner%20Antunes/Documents/NetBeansProjects/CRUD-JAVA-JSP/web/crud/alterar_disciplina.jsp</file>
+            <file>file:/C:/Users/Vagner%20Antunes/Documents/NetBeansProjects/CRUD-JAVA-JSP/web/executar/executar_alterar_professor.jsp</file>
+            <file>file:/C:/Users/Vagner%20Antunes/Documents/NetBeansProjects/CRUD-JAVA-JSP/src/java/MODEL/Professor.java</file>
             <file>file:/C:/Users/Vagner%20Antunes/Documents/NetBeansProjects/CRUD-JAVA-JSP/src/java/DAO/DAOProfessor.java</file>
         </group>
     </open-files>
