@@ -4,7 +4,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>INSERIR PROFESSOR</title>
-        
+        <link href="css/novoprofessor.css" rel="stylesheet">
     </head>
     <body>
         <div>
@@ -19,9 +19,9 @@
                 <label for="senha">SENHA</label>
                 <input type="text" name="senha"/>
                 
-                <input type="submit" value="ENVIAR">
+                <input id="botao" type="submit" value="ENVIAR">
             </form>
-            
+            <a href="index.jsp"><input id="botaohome" type="submit" value="HOME"></a>
         </div>
         
         

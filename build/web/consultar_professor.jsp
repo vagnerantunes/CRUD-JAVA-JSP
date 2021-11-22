@@ -2,21 +2,24 @@
 <%@page import="java.util.ArrayList"%>
 <%@page import="DAO.DAOProfessor"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>CONSULTAR PROFESSOR</title>
+        <link href="css/consultarprofessor.css" rel="stylesheet">
     </head>
+    
     <body>
         <div>
             <h2>Consultar Professor</h2>
             <form action="consultar_professor.jsp" method="post">
                 <label>Pesquisar por nome</label><br>
                 <input type="text" name="nome"/><br>
-                <input type="submit" value="Pesquisar"/>                
+                <input id="botaopesquisar" type="submit" value="Pesquisar"/>                
             </form>
-            <a href="index.jsp"><input type="submit" value="HOME"</a>
+            <a href="index.jsp"><input id="botaohome" type="submit" value="HOME"</a>
             <%
                 out.print("<table border='1'>");
                 out.print("<tr>");
