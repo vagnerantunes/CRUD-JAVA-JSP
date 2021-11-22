@@ -7,16 +7,18 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>CONSULTAR DISCIPLINA</title>
+        <link href="css/consultardisciplina.css" rel="stylesheet">
     </head>
+    
     <body>
         <div>
             <h1>Consultar Disciplina</h1>
             <form action="consultar_disciplina.jsp" method="post">
                 <label>Pesquisar por nome</label><br>
                 <input type="text" name="nome"/><br>
-                <input type="submit" value="Pesquisar"/><br>
+                <input id="botaopesquisar" type="submit" value="Pesquisar"/><br>
             </form>
-            <a href="index.jsp"><input type="submit" value="HOME"/></a>
+            <a href="index.jsp"><input id="botaohome" type="submit" value="HOME"/></a>
                 <%
                     out.print("<table border='1'>");
                     out.print("<tr>");
